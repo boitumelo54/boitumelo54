@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Travel Destinations</title>
+    <style >
+        Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction:flex;}
+     
+        header {
+            background-color: #00ffff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+    
+        .contact-section {
+            flex: 1;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 28px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .contact-section p {
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+            font-size: 18px;
+            color: #555;
+        }
+
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+        }
+
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        
+        @media (max-width: 600px) {
+            .contact-section h2 {
+                font-size: 24px;
+            }
+
+            .contact-form {
+                padding: 15px;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                font-size: 14px;
+            }
+
+            .contact-form button {
+                font-size: 16px;
+            }
+        }
+
+    
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <h3> <li><a href="welcome.html">Home</a></li></h3>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section class="contact-section">
+        <h2>We'd Love to Hear From You</h2>
+        <p>If you have any questions, feedback, or just want to say hello, please fill out the form below and we’ll get back to you as soon as possible.</p>
+
+        
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Travel Destinations. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
